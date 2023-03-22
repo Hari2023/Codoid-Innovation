@@ -1,0 +1,15 @@
+
+ I have completed Selenium my program code below mentions questions.
+1.Write code for handling multiple windows
+4.Write code for handling Frames
+8.Read data from Excel and given that data as input for login and password and click on submit and validate the popup which says Login is successful	
+
+7.write the code TakeScreenShot?
+
+        TakesScreenshot ts = (TakesScreenshot) driver;
+		File src = ts.getScreenshotAs(OutputType.FILE);
+		File des = new File("C:\\Users\\ELCOT\\eclipse-workspace\\Test_Prgm\\ScreenShot\\element.png");
+        FileUtils.copyFile(src, des);
+        
+        
+        

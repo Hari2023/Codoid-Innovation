@@ -1,0 +1,61 @@
+2.)=>Write a bug report for a bug in the login page that the submit button is not working.
+
+i)Title/Bug ID:
+
+  The title should provide a quick description of the bug. Title is 'Facebook Login Page'.
+  BugID: 01 Assiging an ID to the bug also helps to make identification easier.
+  
+ii) Environment:
+   A bug can appear in a particular environment and not others. A bug appear user launch facebook url and interact the 
+ login page pass the valid username and password the click . but submit button not working in user side.
+ 
+When reporting the bug, QAs must specify if the bug is observed in one or more specific environments.
+ Use the template below for specificity: 
+
+Device Type: Hardware and specific device model
+
+OS: OS name and version
+
+Tester: Name of the tester who identified the bug
+
+Software version: The version of the software which is being tested, and in which the bug has appeared.
+
+Connection Strength: If the bug is dependent on the internet connection (4G, 3G, WiFi) mention its strength at
+the time of testing.
+
+Rate of Reproduction: The number of times the bug has been reproduced, with the exact steps involved in each reproduction.  
+
+iii)Steps to Reproduce Bug:
+    Number the steps clearly from first to last so that the developers can quickly and exactly follow them to see the bug for themselves. Here is an example of how one can reproduce a bug in steps:
+
+1.)Click on the “Submit” button on the Login page (this takes the user to the Facebook).
+2.)Check if the user once click submit button proper working.
+
+iv)Excepted Result:
+
+   When user click login submit button and navigate to another page.
+   
+v)Actual Result:
+
+   Successfully submit button working is fine and navigate to another page.
+   
+vi)Visual Proof of Bug:
+Screenshots, videos of log files must be attached to clearly depict the occurrence of the bug. 
+Depending on the nature of the bug, the developer may need once fix issue after that the we must test the 'Regression testing'.
+
+vii) Bug Severity:
+Every bug must be assigned a level of severity and corresponding priority. This reveals the extent to which the bug affects the system, and in turn, how quickly it needs to be fixed.
+
+Levels of Bug Severity:
+
+Low: Bug won’t result in any noticeable breakdown of the system
+Minor: Results in some unexpected or undesired behavior, but not enough to disrupt system function
+Major: Bug capable of collapsing large parts of the system
+Critical: Bug capable of triggering complete system shutdown
+
+Levels of Bug Priority:
+
+Low: Bug can be fixed at a later date. Other, more serious bugs take priority
+Medium: Bug can be fixed in the normal course of development and testing.
+ 
+
